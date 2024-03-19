@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (context) => StudentProvider()),
-        // Add other providers as needed
       ],
       child: MaterialApp(
         home: AnimatedSplashScreen(
